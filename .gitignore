@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local Word materials and generated document outputs are not committed by default.
+*.doc
+*.docx
+*.wps
+*.pdf
+!official_doc_formatter/docs/standards/
+!official_doc_formatter/docs/standards/*.doc
+!official_doc_formatter/docs/standards/*.pdf
+
+# Runtime output from the formatter app.
+official_doc_formatter/storage/uploads/*
+official_doc_formatter/storage/outputs/*
+official_doc_formatter/storage/reports/*
+official_doc_formatter/app/storage/
+!official_doc_formatter/storage/uploads/.gitkeep
+!official_doc_formatter/storage/outputs/.gitkeep
+!official_doc_formatter/storage/reports/.gitkeep
